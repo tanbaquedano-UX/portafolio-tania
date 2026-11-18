@@ -377,6 +377,13 @@ body.contact-modal-lock{overflow:hidden}
 </main></div>
 <section id="contacto" class="contact"><div class="shell contact-inner"><div><h2 data-i18n="contactTitle">¿Trabajamos juntos?</h2><div class="accent"></div><p data-i18n="contactDesc">Estoy abierta a oportunidades de trabajo remoto. Conversemos sobre cómo una estrategia de contenidos puede aportar claridad a tu producto y a tu equipo.</p></div><a id="contactButton" class="btn" href="#contacto" aria-haspopup="dialog" aria-controls="contactModal"><span data-i18n="contactButton">Iniciar conversación</span><span aria-hidden="true">↗</span></a></div></section><footer class="shell foot"><div class="serif">Tania Baquedano.</div><div>UX Content Strategy · UX Writing · Conversation Design</div><div>© <span id="year"></span></div></footer>
 
+<div id="overlay" class="overlay" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="caseTitle" tabindex="-1">
+    <button type="button" id="closeCase" class="close" aria-label="Cerrar proyecto">×</button>
+    <div id="caseContent"></div>
+  </div>
+</div>
+
 <div id="contactModal" class="contact-modal" aria-hidden="true">
   <div class="contact-modal-card" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle" tabindex="-1">
     <button type="button" id="closeContact" class="contact-close" aria-label="Cerrar ventana de contacto">×</button>

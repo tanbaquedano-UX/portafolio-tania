@@ -20,4 +20,3 @@ Probar el modal en español e inglés, la navegación con teclado, los enlaces y
 
 ## Seguridad de producción
 Se incluye honeypot y validación de datos. Antes de difundir el enlace ampliamente, conviene añadir protección anti-spam y rate limiting en la función, por ejemplo Turnstile y Upstash Redis.
-Portafolio actualizado en noviembre de 2026.
